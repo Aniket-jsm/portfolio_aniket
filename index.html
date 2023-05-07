@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Personal Portfolio Website Design</title>
+
+    <!-- box icons-->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- custom css-->
+    <link rel="stylesheet" href="portfolio.css" />
+</head>
+
+<body>
+    <!-- header design-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!--section home design-->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Aniket Singh</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>
+                currently pursuing bachelor's in computer science and engineering from
+                <br /><span>MBM University Jodhpur</span>
+            </p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/aniket-singh-183738214/"><i class="bx bxl-linkedin-square"></i></a>
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/aniketsingh1266/"><i class="bx bxl-instagram"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+            </div>
+
+            <a href="https://drive.google.com/file/d/1VDcA36ZJs3VRc6iCWEe-Oh5ilkW56NiV/view?usp=sharing"
+                class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="profile_pic.png" alt="" />
+        </div>
+    </section>
+
+    <!-- about section design-->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="me.png" alt="" />
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>
+                A Sophomore with Execellent Problem Solving Skills, developing
+                Responsive Web Applications,Proficient in HTML , CSS , Js , Git ,
+                Django-Python , C/C++ ,SQl. Working on frameworks like ReactJs ,
+                NodeJs , Sound Knowledge of Data Structures And Algorithms, Strong
+                Design Skills and ability to collaborate effectively with team members
+                and clients.
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- services section design-->
+
+    <section class-="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="bx bx-code-alt"></i>
+                <h2>Web Development</h2>
+
+                <p>
+                    Developing user-friendly interfaces<br />
+                    Creating responsive designs<br />
+                    Developing animations and effects<br />
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="bx bxs-brush"></i>
+                <h2>Graphic Designing</h2>
+
+                <p>
+                    Developing Brand Identities<br />
+                    Creating Visual Concepts<br />
+                    Designing Print Materials<br />
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section-->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="temp.png" alt="" />
+                <div class="portfolio-layer">
+                    <h4>Temperature Convertor</h4>
+                    <p>
+                        A Temperature Converting WebPage that converts temperature at a
+                        Single Click
+                    </p>
+                    <a href="https://8qecjt.csb.app/"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="coll.png" alt="" />
+                <div class="portfolio-layer">
+                    <h4>University Webpage</h4>
+                    <p>An Engineering College Website showing all its details</p>
+                    <a href="https://s1v1p0.csb.app/"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="port.png" alt="" />
+                <div class="portfolio-layer">
+                    <h4>Portfolio Website</h4>
+                    <p>A Complete Responsive Portfolio Website</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="ecomm.png" alt="" />
+                <div class="portfolio-layer">
+                    <h4>Restaurant Booking Form</h4>
+
+                    <p>
+                        Beat the rush and secure your spot at Ani's Restaurant with our easy online booking.
+                    </p>
+                    <a href="https://9tg294.csb.app/"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="https://formspree.io/f/xyyaoova" method="POST">
+            <div class="input-box">
+                <input name="Name" type="text" placeholder="Name" />
+                <input name="Phone Number" type="number" placeholder="Phone Number" />
+            </div>
+            <div class="input-box">
+                <input name="Email" type="email" placeholder="Mail-Address" />
+                <input name="Mail Subject" type="text" placeholder="Email-Subject" />
+            </div>
+            <textarea name="Message" type="text" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input name="Submit" type="submit" value="Send Message" class="btn" />
+        </form>
+    </section>
+
+    <!-- footer section-->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 BY Aniket Singh | All Rights Reserved</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+
+    <!-- scroll reveal-->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js-->
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
